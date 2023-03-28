@@ -7,6 +7,6 @@ The measurements will be stored in data/runtime.txt
 
 ## Creating the plot
 To create the plot of the running times  with the data from the paper, go to the folder "data" and execute ``python3 plot.py 6 5 runtime_paper.txt``
-To create the plot after running the tests as described above, execute ``python3 plot.py``
 The first argument to plot.py is the number test-runs per file (running ``./run.sh`` creates two runs). The second argument is the number of measurements per run.
+To create the plot after running the tests as described above, execute ``python3 plot.py``
 The file enrol-auth.svg is the same as the plot in the paper. It has been created by running ``python3 plot.py 6 5 runtime_paper.txt``. The values in the table (from the paper) are the (commandline) output of running the aforementioned command.
