@@ -1,5 +1,5 @@
 # ipfe-bio-auth
-This repository contains the source code of the paper "A Framework for UC Secure Privacy Preserving Biometric Authentication using Efficient Functional Encryption" (<--link coming soon-->). It is a two-factor authentication protocol. The first factor is the posession of a secret key stored on a secure hardware token. The second factor is the user's biometric. The protocol uses function-hiding inner-product functional encryption to let the server compute the distance of the biometric templates, while keeping the templates hidden from the server. 
+This repository contains the source code of the paper "A Framework for UC Secure Privacy Preserving Biometric Authentication using Efficient Functional Encryption" ([Conference proceedings](https://link.springer.com/chapter/10.1007/978-3-031-33491-7_7) [Eprint](https://eprint.iacr.org/2023/481.pdf)). It is a two-factor authentication protocol. The first factor is the posession of a secret key stored on a secure hardware token. The second factor is the user's biometric. The protocol uses function-hiding inner-product functional encryption to let the server compute the distance of the biometric templates, while keeping the templates hidden from the server. 
 
 ## Running the code
 To re-run the performance tests, execute ``./run.sh``
